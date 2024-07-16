@@ -1,0 +1,805 @@
+:root{
+    /* for color */
+    --bg-color: #f8f6f9;
+    --primary-text-color: #3f2614;
+    --secondary-text-color: #b68554;
+    --green-cyan-color: #4bc287;
+    --light-green: #dceee7;
+
+    /* for text */
+    --font: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 1700px) {
+    /*-= Navbar Responsive CSS  Start =-*/
+
+    #nav-bar nav{
+        padding: 55px 110px 0px;
+    }
+    .navlist{
+        gap: 45px;
+    }
+
+    /*-= Navbar Responsive CSS End =-*/
+
+    /*-= Header Content Responsive CSS =-*/
+
+    #header-banner{
+        padding: 0 110px;
+    }
+
+    /*-= Header Content Responsive CSS End =-*/
+
+    .social-icons{
+        padding: 0px 110px 0px;
+    }
+}
+
+
+@media only screen and (max-width: 1530px) {
+    /*-= Navbar Responsive CSS  Start =-*/
+
+    #nav-bar nav{
+        padding: 55px 80px 0px;
+    }
+    .navlist{
+        gap: 35px;
+    }
+
+    /*-= Navbar Responsive CSS End =-*/
+
+    /*-= Header Content Responsive CSS =-*/
+    
+    #header-banner{
+        padding: 0 90px;
+    }
+
+    /*-= Header Content Responsive CSS End =-*/
+    .social-icons{
+        padding: 0px 90px 0px;
+    }
+}
+
+
+@media only screen and (max-width: 1418px) {
+    /*-= Navbar Responsive CSS  Start =-*/
+
+    #nav-bar nav{
+        padding: 55px 50px 0px;
+    }
+    .navlist{
+        gap: 25px;
+    }
+
+    /*-= Navbar Responsive CSS End =-*/
+
+    /*-= Header Content Responsive CSS =-*/
+    
+    #header-banner{
+        padding: 0 60px;
+    }
+    .header-text h1{
+        font-size: 68px;
+        font-weight: 600;
+        word-spacing: -5px;
+    }
+    .header-text h3{
+        font-size: 58px;
+    }
+    .header-text h2{
+        font-size: 68px; 
+    }
+    .header-text .join-class p{
+        font-size: 21px;
+    }
+    .header-image{
+        position: relative;
+        top: 45px;
+        /* width: 40%; */
+        /* margin-right: 150px; */
+    }
+    .header-image img{
+        width: 600px;
+        
+    }
+
+    /*-= Header Content Responsive CSS End =-*/
+
+    .social-icons{
+        padding: 0px 60px 0px;
+    }
+}
+
+
+@media only screen and (max-width: 1325px) {
+    /*-= Navbar Responsive CSS  Start =-*/
+
+    #nav-bar nav{
+        padding: 55px 30px 0px;
+    }
+    .navlist{
+        gap: 20px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .navlist a{
+        font-size: 18px;
+    }
+
+    /*-= Navbar Responsive CSS End =-*/
+
+    /*-= Header Content Responsive CSS =-*/
+    
+    #header-banner{
+        padding: 0 40px;
+    }
+
+    .header-text h1{
+        font-size: 62px;
+    }
+    .header-text h3{
+        font-size: 52px;
+    }
+    .header-text h2{
+        font-size: 62px; 
+    }
+    .header-text .join-class p{
+        font-size: 18px;
+    }
+    .header-image{
+        position: relative;
+        top: 45px;
+        /* width: 40%; */
+        /* margin-right: 150px; */
+    }
+    .header-image img{
+        width: 600px;   
+    }
+
+    /*-= Header Content Responsive CSS End =-*/
+
+    .social-icons{
+        padding: 0px 40px 0px;
+    }
+}
+
+
+@media only screen and (max-width: 1178px) and (min-width: 951px) {
+    /*-= Navbar Responsive CSS  Start =-*/
+
+    #nav-bar nav{
+        padding: 55px 20px 0px
+    }
+    .navlist{
+        gap: 18px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .navlist a{
+        color: var(--primary-text-color);
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .search-box input{
+        padding: 8px 15px;;
+        width: 310px;
+    }
+    .search-box .bx-search{
+        top: 12px;
+        right: 20px;
+        font-size: 18px;
+    }
+
+    /*-= Navbar Responsive CSS End =-*/
+
+    /*-= Header Content Responsive CSS =-*/
+    .header-text{
+        top: -25px;
+    }  
+    .header-text h1{
+        font-size: 52px;
+    }
+    .header-text h3{
+        font-size: 42px;
+    }
+    .header-text h2{
+        font-size: 52px; 
+    }
+    .header-text .join-class p{
+        font-size: 16px;
+        margin-right: 90px;
+        margin-left: -151px;
+    }
+    .lorem-ipsum{
+        text-align: left;
+        font-size: 15px;
+    }
+    .header-image img{
+        width: 450px;   
+    }
+    .btns .apply-now{
+        padding: 10px 20px 10px 30px;
+        font-size: 16px;
+    }
+    .btns .learn-more{
+        padding: 10px 30px 10px 20px;
+        font-size: 16px;
+    }
+    .btns .apply-now:hover{
+        font-size: 16px;
+    }
+    .btns .learn-more:hover{
+        font-size: 16px;
+    }
+    .header-image .a-new-knd-scl{
+        /* border: 1px solid red; */
+        background-color: rgba(255, 255, 255, 0.4);
+        position: absolute;
+        top: -32px;
+        left: -45px;
+        padding: 10px 35px 10px 35px;
+        border-bottom-left-radius: 50px;
+        border-top-right-radius: 50px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .header-image .a-new-knd-scl .text-1{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        color: var(--secondary-text-color);
+    }
+    .header-image .a-new-knd-scl .text-2{
+        font-size: 15px;
+        text-align: right;
+    }
+    .header-image{
+        top: -25px;
+    }
+    .bottom{
+        margin-top: -150px;
+    }
+    /*-= Header Content Responsive CSS End =-*/
+    .social-icons{
+        margin-top: -160px;
+    }
+}
+
+
+@media only screen and (max-width: 950px) {
+    /*---===== Navbar Responsive CSS  Start =====---*/
+
+    #nav-bar nav{
+        margin-top: 15px;
+        padding: 20px 15px 20px;
+        background: rgb(230, 230, 230);
+        border-radius: 5px;
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .navlist{
+        display: flex;
+        position: absolute;
+        background: rgba(63, 38, 20, 0.8);
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        top: 0%;
+        justify-content: center;
+        right: -100%;
+        padding: 40px 20px;
+        transition: all 0.5s ease-in-out;
+        z-index: 1;
+    }
+    .navlist.open{
+        right: 0;
+    }
+    .navlist a{
+        color: var(--light-green);
+        font-size: 25px;
+    }
+    .search-box input{
+        padding: 10px 20px;
+        width: 320px;
+    }
+    .search-box .bx-search{
+        top: 12px;
+        right: 20px;
+        font-size: 18px;
+    }
+    #menu-icon{
+        display: block;
+        z-index: 3;
+    }
+    
+    /*---===== Navbar Responsive CSS End =====---*/
+
+    /*-= Header Content Responsive CSS =-*/
+
+    #header-banner{
+        height: 100%;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        top: 100px;
+    }
+    .header-text .join-class p{
+        color: var(--secondary-text-color);
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 0;
+        /* padding-top: 15px; */
+        padding-bottom: 0px;
+        padding-left: 150px;
+        border-top-right-radius: 50px;
+        box-shadow: none;
+    }
+    .header-text .lorem-ipsum{
+        margin-top: 15px;
+    }
+    .header-image{
+        top: 150px;
+        /* margin-left: 290px; */
+        width: 450px;
+        left: 45%;
+        /* border: 1px solid red; */
+    }
+    .header-image img{
+        width: 500px;
+    }
+    
+    .header-text h1{
+        font-size: 62px;
+    }
+    .header-text h3{
+        font-size: 52px;
+    }
+    .header-text h2{
+        font-size: 62px; 
+    }
+    .header-text .join-class p{
+        font-size: 20px;
+        margin-right: 90px;
+        margin-left: -151px;
+    }
+    .lorem-ipsum{
+        text-align: left;
+        font-size: 18px;
+    }
+    .header-image img{
+        width: 450px;   
+    }
+    .btns .apply-now{
+        padding: 10px 20px 10px 30px;
+        font-size: 16px;
+    }
+    .btns .learn-more{
+        padding: 10px 30px 10px 20px;
+        font-size: 16px;
+    }
+    .btns .apply-now:hover{
+        font-size: 16px;
+    }
+    .btns .learn-more:hover{
+        font-size: 16px;
+    }
+    .header-image .a-new-knd-scl{
+        background-color: rgba(255, 255, 255, 0.4);
+        position: absolute;
+        top: -32px;
+        left: -45px;
+        padding: 10px 35px 10px 35px;
+    }
+    .header-image .a-new-knd-scl .text-1{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+        color: var(--secondary-text-color);
+    }
+    .header-image .a-new-knd-scl .text-2{
+        font-size: 15px;
+        text-align: right;
+    }
+    
+    /*-= Header Content Responsive CSS End =-*/
+
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* padding: 0px 150px 0px; */
+        gap: 40px;
+        bottom: 100px;
+        /* margin-bottom: 200px; */
+        /* border: 1px solid green; */
+        position: relative;
+    }
+}
+
+@media (min-width: 761px) and (max-width: 862px) {
+    .header-image{
+        left: 38%;
+        width: 450px;
+    }
+}
+@media (min-width: 715px) and (max-width: 760px) {
+    .header-image{
+        left: 34%;
+        width: 450px;
+    }
+}
+@media (min-width: 629px) and (max-width: 716px) {
+    .header-image{
+        left: 22%;
+        width: 450px;
+    }
+}
+/* @media (min-width: 629px) and (max-width: 716px) {
+    .header-image{
+        left: 30%;
+        width: 450px;
+    }
+} */
+
+@media only screen and (max-width: 628px) {
+    /*---===== Navbar Responsive CSS  Start =====---*/
+
+    .search-box{
+        display: flex;
+        position: absolute;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        top: -220%;
+        justify-content: center;
+        right: -100%;
+        transition: all 0.5s ease-in-out;
+        z-index: 2;
+    }
+    .search-box.open{
+        right: 0;
+    }
+    .search-box .bx-search{
+        position: relative;
+        top: -27px;
+        right: -130px;
+        font-size: 15px;
+    }
+    .navlist a{
+        font-size: 20px;
+    }
+
+    /*---===== Navbar Responsive CSS End =====---*/
+
+    /*-= Header Content Responsive CSS =-*/
+
+    #header-banner{
+        height: 100%;
+        grid-template-columns: 1fr;
+        top: 30px;
+        
+    }
+    .header-text .join-class p{
+        color: var(--secondary-text-color);
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 0;
+        padding-bottom: 0px;
+        padding-left: 150px;
+        border-top-right-radius: 50px;
+        box-shadow: none;
+    }
+    .header-text .lorem-ipsum{
+        margin-top: 15px;
+    }
+    .header-image{
+        /* margin-left: 150px; */
+        left: 0%;
+        top: 30px;
+        /* width: 100%; */
+        
+    }
+    .header-image img{
+        width: 338px !important;
+    }
+    .header-text{
+        position: relative;
+    }
+    .header-text h1{
+        font-size: 42px;
+    }
+    .header-text h3{
+        font-size: 32px;
+    }
+    .header-text h2{
+        font-size: 42px; 
+    }
+    .header-text .join-class p{
+        font-size: 13px;
+        margin-right: 90px;
+        margin-left: -151px;
+    }
+    .lorem-ipsum{
+        text-align: left;
+        font-size: 12px;
+    }
+    .btns .apply-now{
+        padding: 8px 15px 8px 25px;
+        font-size: 14px;
+    }
+    .btns .learn-more{
+        padding: 8px 25px 8px 15px;
+        font-size: 14px;
+    }
+    .btns .apply-now:hover{
+        font-size: 14px;
+    }
+    .btns .learn-more:hover{
+        font-size: 14px;
+    }
+    .header-image .a-new-knd-scl{
+        background-color: rgba(255, 255, 255, 0.4);
+        position: absolute;
+        top: -32px;
+        left: -45px;
+        padding: 10px 35px 10px 35px;
+    }
+    .header-image .a-new-knd-scl .text-1{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .header-image .a-new-knd-scl .text-2{
+        font-size: 9px;
+        text-align: right;
+    }
+    
+    /*-= Header Content Responsive CSS End =-*/
+
+}
+@media (max-width: 380px) and (min-width: 340px){
+    #header-banner{
+        height: 100%;
+        top: 60px;
+    }
+    .header-image{
+        width: 100%;
+        top: 90px;
+    }
+}
+/* @media only screen and (max-width: 375px) {
+    #header-banner{
+        height: 100%;
+        top: 60px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #header-banner{
+        height: 100%;
+        top: 30px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+@media (max-width: 1660px) {
+    #nav-bar nav{
+        padding: 55px 120px 0px;
+    }
+    .navlist{
+        gap: 50PX;
+    }
+}
+@media (max-width: 1566px) {
+    #nav-bar nav{
+        padding: 55px 100px 0px;
+    }
+    .navlist{
+        gap: 45PX;
+    }
+}
+@media (max-width: 1271px) {
+    #nav-bar nav{
+        padding: 55px 45px 0px;
+    }
+    .navlist{
+        gap: 30px;
+        
+    }
+    .navlist a{
+        font-weight: 600;
+        /* margin-left: 60px; 
+        font-size: 18px;
+    }
+    .logo{
+        text-transform: uppercase;
+        display: flex;
+        color: var(--secondary-text-color);
+        gap: 5px;
+        font-size: 25px;
+    }
+    .search-box input{
+        padding: 10px 25px;
+        width: 350px;
+    }
+    .search-box{
+        position: relative;
+    }
+    .search-box .bx-search{
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        background: var(--light-green);
+        color: var(--green-cyan-color);
+        font-size: 20px;
+        font-weight: 600;
+    }
+   
+}
+@media (max-width: 900px) {
+    #nav-bar nav{
+        padding: 55px 45px 0px;
+    }
+    .navlist{
+        gap: 20px;
+        
+    }
+    .navlist a{
+        font-weight: 600;
+        /* margin-left: 60px; 
+        font-size: 16px;
+    }
+    .logo{
+        text-transform: uppercase;
+        display: flex;
+        color: var(--primary-text-color);
+        gap: 5px;
+        font-size: 20px;
+    }
+    .search-box input{
+        padding: 10px 25px;
+        width: 350px;
+    }
+    .search-box{
+        position: relative;
+    }
+    .search-box .bx-search{
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        background: var(--light-green);
+        color: var(--green-cyan-color);
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+@media (max-width: 400px) {
+    .navlist{
+        display: flex;
+        background-color: var(--primary-text-color);
+        width: 350px;
+        height: 470px;
+        flex-direction: column;
+        left: 1212px;
+        /* left: 812px; 
+        top: 90px;
+        position: absolute;
+        z-index: 1;
+        padding: 55px 55px;
+        border-radius: 20px 0px 0px 20px;
+        transition: all 0.3s ease-in-out;
+    }
+    .navlist.open{
+        left: 500px !important;
+    }
+    .navlist li a{
+        color: var(--light-green);
+    }
+    
+
+
+
+
+    /* .search-box{
+        display: none;
+    } 
+    #nav-bar nav{
+        padding: 55px 40px 0px;
+    }
+    #menu-icon{
+        color: #000;
+        font-size: 35px;
+        cursor: pointer;
+        font-weight: 500;
+        display: block;
+        user-select: none;
+        transition: all 0.3s ease-in-out;
+    }
+    .logo{
+        text-transform: uppercase;
+        display: flex;
+        color: var(--secondary-text-color);
+        gap: 5px;
+        font-size: 20px;
+    }
+    .search-box input{
+        padding: 10px 25px;
+        width: 350px;
+    }
+    .search-box{
+        position: relative;
+    }
+    .search-box .bx-search{
+        cursor: pointer;
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        background: var(--light-green);
+        color: var(--green-cyan-color);
+        font-size: 20px;
+        font-weight: 600;
+    }
+}*/
+
+
+
+
+
+
+
+/* @media (min-width: 1200px) and (max-width: 1420px) {
+    #nav-bar nav{
+        padding: 55px 20px 0px;
+    }
+    .logo{
+        text-transform: uppercase;
+        display: flex;
+        color: var(--secondary-text-color);
+        gap: 5px;
+        font-size: 20px;
+    }
+    .navlist{
+        gap: 30px;
+    }
+}
+
+@media (max-width: 620px) {
+    .header-text{
+        top: 250px;
+    }
+} */
